@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "arthursphasmo:item/debug/ghost_idle_trigger"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "arthursphasmo",
+  "version": "${version}",
+  "name": "arthursphasmo",
+  "description": "Yes I know halloween has already ended",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/arthursphasmo/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "com.asteristired.arthursphasmo.client.ArthursPhasmoDataGenerator"
+    ],
+    "client": [
+      "com.asteristired.arthursphasmo.client.ArthursPhasmoClient"
+    ],
+    "main": [
+      "com.asteristired.arthursphasmo.ArthursPhasmo"
+    ]
+  },
+  "mixins": [
+    "arthursphasmo.mixins.json",
+    {
+      "config": "arthursphasmo.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  },
+  "suggests": {
+    "iris": "*",
+    "sodium": "*"
+  }
+}

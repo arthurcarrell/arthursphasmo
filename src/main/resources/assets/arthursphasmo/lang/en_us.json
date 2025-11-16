@@ -1,0 +1,17 @@
+{
+  "item.arthursphasmo.flashlight": "Flashlight",
+  "item.arthursphasmo.ghost_idle_trigger": "Trigger Idle State",
+  "item.arthursphasmo.ghost_wandering_trigger": "Trigger Wandering State",
+  "item.arthursphasmo.ghost_interacting_trigger": "Trigger Interaction State",
+  "item.arthursphasmo.ghost_manifesting_trigger": "Trigger Manifesting State",
+  "item.arthursphasmo.ghost_hunting_trigger": "Trigger Hunting State",
+
+  "tooltip.arthursphasmo.flashlight": "Can be toggled on and off",
+  "tooltip.arthursphasmo.electric": "⚡ Electric",
+
+  "subtitles.arthursphasmo.flashlight.click": "Flashlight clicked",
+
+  "entity.arthursphasmo.ghost": "Ghost",
+
+  "itemgroup.arthursphasmo": "Arthur's Phasmo"
+}
