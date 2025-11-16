@@ -61,6 +61,9 @@ public class GhostEntity extends PathAwareEntity {
 
     @Override
     public void tick() {
+        // need noclip so cannot be collided with - make sure no gravity is on to prevent falling through the floor.
         this.noClip = ModEntities.isTangible(this);
+        this.setNoGravity(true);
+        super.tick();
     }
 }
